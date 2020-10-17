@@ -1,0 +1,40 @@
+#header:hover {
+  background-color: yellow;
+  font-family: cursive;
+  font-weight: bold;
+  font-synthesis: weight;
+  font-size: 100px;
+}
+
+a:link {
+  color: green;
+}
+
+a:visited {
+  color: green;
+}
+
+a:active {
+  color: yellow;
+}
+
+input:focus {
+  background-color: yellow;
+  color: red;
+}
+
+.hello > .goodbye > p {
+  color: blue;
+}
+
+.hello > .goodbye > p:hover {
+  color: purple;
+}
+
+section > p {
+  font-style: oblique;
+}
+
+section > p:hover {
+  font-style: normal;
+}

@@ -1,0 +1,50 @@
+#top-div > span:hover {
+  color: blue;
+}
+
+#bottom-div > p:hover {
+  color: green;
+}
+
+header {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+}
+
+header:hover {
+  background-color: yellow;
+  width: 50%;
+}
+
+header > p:hover {
+  color: red;
+  font-size: 50px;
+}
+
+header > a:visited {
+  color: powderblue;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+footer > a:active {
+  color: white;
+}
+
+footer:hover {
+  background-color: orange;
+  height: 30%;
+}
+
+img:hover {
+  display: none;
+}
